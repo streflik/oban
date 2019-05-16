@@ -248,7 +248,7 @@ Jobs may be scheduled down to the second any time in the future:
 
 ```elixir
 %{id: 1}
-|> MyApp.Workers.Business.new(schedule_in: 5)
+|> MyApp.Workers.Business.new(scheduled_in: 5)
 |> MyApp.Repo.insert()
 ```
 
